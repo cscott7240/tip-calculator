@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(to bottom right, #3388CC, #33CC88);;
+    
+   
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    
+}
+
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #3388CC, #33CC88);
+    
+   
+}
+
+.app {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: aquamarine;
+   border-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 30px;
+    display: block;
+}
+    
+.input-group {
+    display: flex;
+    align-content: center;
+}
+input {
+  appearance: none;
+   border: none;
+   outline: none;
+   background: none;
+   display: block;
+   width: 100%;
+   padding: 10px 15px;
+   border-bottom: 3px solid #33CC88;
+   color: #212121;
+   font-size: 18px;
+  
+   &::placeholder {
+    color: black;
+    font-size: 14px;
+   }
+}
+ 
+
+ select {
+ 
+   appearance: none;
+   border: none;
+   outline: none;
+   background: none;
+   display: block;
+   width: 100%;
+   border-bottom: 3px solid #33CC88;
+   border-radius: 0px;
+   color: #212121;
+   font-size: 16px;
+   padding: 10px 15px;
+
+  }
+
+ footer {
+     box-shadow: 0px -3px 12px rgba(0, 0, 0, 0.2);}
+  
+  button {
+   display: block;
+   width: 100%;
+   padding: 10px 15px;
+   appearance: none;
+   border: none;
+   outline: none;
+
+   background-image: linear-gradient(to bottom right, #3388CC, #33CC88);
+   
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+   cursor: pointer;
+  }
+
+
+.tip {
+    padding: 15px 25px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+   }
+ 
+. tip-wrap {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+    
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.pre {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 3px solid #33CC88; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
